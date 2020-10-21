@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="description" content="Mezcales tradicionales oaxaqueños">
+	<meta name="keywords" content="Mezcal, Oaxaca, Tradicionales, Bebidas">
+	<meta name="robots" content="index,follow">
+	<title>Mezcalera Oaxaca</title>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/113a378e2b.js" crossorigin="anonymous"></script>
+
+	<!-- montserrat fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- js send mail -->
+	<script src="js/smtp.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+
+	<!-- NAVBAR -->
+	<nav class="navbar nav-down">
+		<div class="container cont-menuDesk">
+			<div class="logo">
+				<a href="index.html" class="nav-logo"><img src="img/logoHeader.svg"></a>
+			</div>
+			<ul class="menu">
+				<li><a href="#intro" class="nav-link active" data-hover="Inicio">Inicio</a></li>
+				<li><a href="#mezcales" class="nav-link" data-hover="Habilidades">Mezcales</a></li>
+				<li><a href="#contactanos" class="nav-link" data-hover="Portafolio">Contáctanos</a></li>
+			</ul>
+		</div>
+
+		<div class="container cont-menuMobile">
+			<div class="logo">
+				<a href="index.html" class="nav-logo"><img src="img/logoHeader.svg"></a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    	<i class="fas fa-bars"></i>
+		    </button>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="menu">
+				<li><a href="#intro" class="nav-link active" data-hover="Inicio">Inicio</a></li>
+				<li><a href="#mezcales" class="nav-link" data-hover="Habilidades">Mezcales</a></li>
+				<li><a href="#contactanos" class="nav-link" data-hover="Portafolio">Contáctanos</a></li>
+			</ul>
+		</div>
+	</nav>	
+	<!-- END NAVBAR -->
+
+	<!-- INTRO -->
+	<section id="intro" class="bgGray pBottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-12 offset-lg-2 offset-md-1">
+					<img src="img/mezcalHome.png" alt="Mezcal oaxaqueño" class="imgIntro">
+				</div>
+				<div class="col-lg-5 col-md-7 col-sm-12 squere-intro">
+					<img src="img/iconMaguey.svg">
+					<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis tristique est, eu vestibulum sapien. Duis dignissim nisi sodales erat dignissim placerat.</p>
+					<p>Contáctanos por:</p>
+
+					<div class="intro-buttons">
+						<a href="mailto:leohdez89@hotmail.com" class="btn-white hvr-bounce-to-right"><i class="far fa-envelope mr-2"></i>Correo</a>
+						<a href="https://api.whatsapp.com/send?phone=522288262328" class="btn-white hvr-bounce-to-right"  target="_blank"><i class="fab fa-whatsapp mr-2"></i>Whatsapp</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END INTRO -->
+
+	<!-- MEZCALES -->
+	<section id="mezcales" class="pTop pBottom backRectangle">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="title">Mezcales</h1>
+				</div>
+			</div>
+
+			<div class="row pTop">
+				<div class="col-12">
+					<div class="content-cards">
+						<div class="card-mezcal" data-toggle="modal" data-target="#ModalMezcal1">
+							<img src="img/productos/Mezcal1-small.png">
+							<div class="txtMezcal">
+								<p>Mezcal Tobala</p>
+								<p class="price"><span>$ </span>750<span>.00</span></p>
+								<p>- ver más -</p>
+							</div>
+						</div>
+
+						<div class="card-mezcal" data-toggle="modal" data-target="#ModalMezcal2">
+							<img src="img/productos/Mezcal2-small.png">
+							<div class="txtMezcal">
+								<p>Mezcal de pechuga</p>
+								<p class="price"><span>$ </span>500<span>.00</span></p>
+								<p>- ver más -</p>
+							</div>
+						</div>
+
+						<div class="card-mezcal" data-toggle="modal" data-target="#ModalMezcal3">
+							<img src="img/productos/Mezcal3-small.png">
+							<div class="txtMezcal">
+								<p>Mezcal espadín</p>
+								<p class="price"><span>$ </span>550<span>.00</span></p>
+								<p>- ver más -</p>
+							</div>
+						</div>
+
+						<div class="card-mezcal" data-toggle="modal" data-target="#ModalMezcal4">
+							<img src="img/productos/Mezcal4-small.png">
+							<div class="txtMezcal">
+								<p>Mezcal de gusano</p>
+								<p class="price"><span>$ </span>450<span>.00</span></p>
+								<p>- ver más -</p>
+							</div>
+						</div>
+
+						<div class="card-mezcal" data-toggle="modal" data-target="#ModalMezcal5">
+							<img src="img/productos/Mezcal5-small.png">
+							<div class="txtMezcal">
+								<p>Mezcal clásico</p>
+								<p class="price"><span>$ </span>330<span>.00</span></p>
+								<p>- ver más -</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<!-- END MEZCALES -->
+
+	<!-- Modal mezcal tobala-->
+	<div class="modal fade" id="ModalMezcal1" tabindex="-1" role="dialog" aria-labelledby="ModalMezcal1Title" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-mezcal" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <i class="fas fa-times" aria-hidden="true"></i>
+	          <i></i>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <div class="row mezcal-description">
+	        	<div class="col-md-4 col-sm-12 text-center">
+	        		<img src="img/productos/Mezcal1-big.png" alt="mezcal tobala">
+	        	</div>
+	        	<div class="col-md-8 col-sm-12 text-center">
+	        		<h2 class="title-modal">Mezcal tobala</h2>
+	        		<p class="price-modal"><span>$ </span>750<span>.00</span></p>
+	        		<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+
+					<p>El tobala es un agave corto y sólido utilizado para la elaboración del mezcal que requiere de diez a doce años para su maduración.</p>
+
+					<p>Extraido de los rincones artesanales de los valles centrales de Oaxaca, grupo “Recuerdo de Oaxaca”, nos ofrece su cosecha y presentación.</p>
+
+					<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End modal mezcal tobala-->
+
+	<!-- Modal mezcal de pechuga-->
+	<div class="modal fade" id="ModalMezcal2" tabindex="-1" role="dialog" aria-labelledby="ModalMezcal2Title" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-mezcal" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <i class="fas fa-times" aria-hidden="true"></i>
+	          <i></i>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <div class="row mezcal-description">
+	        	<div class="col-md-4 col-sm-12 text-center">
+	        		<img src="img/productos/Mezcal2-big.png" alt="mezcal tobala">
+	        	</div>
+	        	<div class="col-md-8 col-sm-12 text-center">
+	        		<h2 class="title-modal">Mezcal de pechuga</h2>
+	        		<p class="price-modal"><span>$ </span>500<span>.00</span></p>
+	        		<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+
+					<p>Toma su nombre de la práctica de suspender dentro de la olla de cobre o barro, una pechuga de guajolote durante el proceso de elaboración. Con el tiempo los maestros mezcaleros fueron utilizando variantes de diferentes animales como  pollo, conejo, iguana, venado o borrego.</p>
+
+					<p>El mezcal de pechuga resalta por su sabor, producto de su peculiar proceso de producción, traído para ustedes por grupo “Recuerdo de Oaxaca”.</p>
+
+					<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End modal mezcal de pechuga-->
+
+	<!-- Modal mezcal Espadín-->
+	<div class="modal fade" id="ModalMezcal3" tabindex="-1" role="dialog" aria-labelledby="ModalMezcal3Title" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-mezcal" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <i class="fas fa-times" aria-hidden="true"></i>
+	          <i></i>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <div class="row mezcal-description">
+	        	<div class="col-md-4 col-sm-12 text-center">
+	        		<img src="img/productos/Mezcal3-big.png" alt="mezcal tobala">
+	        	</div>
+	        	<div class="col-md-8 col-sm-12 text-center">
+	        		<h2 class="title-modal">Mezcal espadín</h2>
+	        		<p class="price-modal"><span>$ </span>550<span>.00</span></p>
+	        		<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+
+					<p>Caracterizado por ser el mezcal de mayor producción en los valles centrales de Oaxaca, la alta demanda se debe a sus...</p>
+
+					<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End modal mezcal Espadín-->
+
+	<!-- Modal mezcal de gusano-->
+	<div class="modal fade" id="ModalMezcal4" tabindex="-1" role="dialog" aria-labelledby="ModalMezcal4Title" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-mezcal" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <i class="fas fa-times" aria-hidden="true"></i>
+	          <i></i>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <div class="row mezcal-description">
+	        	<div class="col-md-4 col-sm-12 text-center">
+	        		<img src="img/productos/Mezcal4-big.png" alt="mezcal tobala">
+	        	</div>
+	        	<div class="col-md-8 col-sm-12 text-center">
+	        		<h2 class="title-modal">Mezcal de gusano</h2>
+	        		<p class="price-modal"><span>$ </span>450<span>.00</span></p>
+	        		<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+
+					<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Provident consectetur, assumenda neque est ipsum, ipsa eveniet incidunt iusto fugit quaerat!</p>
+
+					<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End modal mezcal de gusano-->
+
+	<!-- Modal mezcal Clásico-->
+	<div class="modal fade" id="ModalMezcal5" tabindex="-1" role="dialog" aria-labelledby="ModalMezcal5Title" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-mezcal" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header border-0">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <i class="fas fa-times" aria-hidden="true"></i>
+	          <i></i>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <div class="row mezcal-description">
+	        	<div class="col-md-4 col-sm-12 text-center">
+	        		<img src="img/productos/Mezcal5-big.png" alt="mezcal tobala">
+	        	</div>
+	        	<div class="col-md-8 col-sm-12 text-center">
+	        		<h2 class="title-modal">Mezcal clásico</h2>
+	        		<p class="price-modal"><span>$ </span>330<span>.00</span></p>
+	        		<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+
+					<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Provident consectetur, assumenda neque est ipsum, ipsa eveniet incidunt iusto fugit quaerat!</p>
+
+					<div class="line-dot">
+						<div class="line"></div>
+						<div class="point"></div>
+						<div class="line"></div>
+					</div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End modal mezcal Clásico-->
+
+
+	<!-- CONTÁCTANOS -->
+	<section id="contactanos" class="bgGray pBottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="title">Contáctanos</h1>
+				</div>
+			</div>
+
+			<div class="row my-5">
+				<div class="col-12">
+					<p>Envíanos tus dudas te responderemos en breve.</p>
+				</div>
+			</div>
+
+			<div class="row content-form">
+				<div class="col-md-6 col-sm-12">
+					<img src="img/imgContact.svg" alt="contáctanos" class="imgContact img-fluid">
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<form action="" class="contactForm">
+						<input type="text" placeholder="Tu nombre">
+						<input type="text" placeholder="Tu correo">
+						<textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+						<!-- <button class="hvr-bounce-to-right"><i class="far fa-paper-plane mr-2"></i>Enviar</button> -->
+						<input type="button" value="Send Email" onclick="sendEmail()" class="hvr-bounce-to-right">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END CONTÁCTANOS -->
+
+	<!-- FOOTER -->
+	<footer class="footer py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<img src="img/logoFooter.svg" alt="Mezcalera Oaxaca" class="logo-footer">
+				</div>
+
+				<div class="col-md-6 col-sm-12">
+					<div class="row">
+						<div class="col-12 rs">
+							<a href="mailto:leohdez89@hotmail.com" class="btn-white circle">
+								<i class="far fa-envelope"></i>
+							</a>
+
+							<a href="https://api.whatsapp.com/send?phone=522288262328" class="btn-white circle"  target="_blank">
+								<i class="fab fa-whatsapp"></i>
+							</a>
+						</div>
+
+						<div class="col-12 text-center">
+							<p class="text-white">Todos los derechos reservados</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- END FOOTER -->
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+</body>
+</html>
